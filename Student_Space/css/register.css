@@ -1,0 +1,133 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  #header {
+    padding-top: 20px;
+    .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        color: #000;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 12px;
+      }
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 13px;
+        position: relative;
+        h3 {
+          color: #000;
+          font-size: 16.741px;
+          font-weight: 400;
+          margin-bottom: 10px;
+        }
+        input {
+          padding: 0 50px 0 16px;
+          width: 436.238px;
+          height: 58.594px;
+          border-radius: 6.697px;
+          border: 0.837px solid rgba(0, 0, 0, 0.4);
+          font-size: 18px;
+        }
+        input::placeholder {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 16.741px;
+          font-weight: 400;
+        }
+        input:focus {
+          outline: none;
+        }
+        .icon {
+          position: relative;
+          img {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            cursor: pointer;
+          }
+        }
+        .check {
+          display: flex;
+          align-items: center;
+          gap: 13px;
+          position: absolute;
+          top: 108px;
+          left: 0;
+          input {
+            width: 21px;
+            height: 21px;
+          }
+          span {
+            color: #000;
+            font-size: 13.393px;
+            font-weight: 400;
+          }
+        }
+      }
+      .vhod {
+        margin-top: 47px;
+        padding: 16px 138.5px;
+        border-radius: 12px;
+        background: #1d53c5;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .box2 {
+        display: flex;
+        align-items: center;
+        margin: 16px 0 21px 0;
+        .line {
+          width: 139px;
+          height: 1px;
+          background: #1d53c5;
+        }
+        span {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 16px;
+          font-weight: 500;
+          margin: 0 39px 0 30px;
+        }
+      }
+      .box3 {
+        display: flex;
+        gap: 25px;
+        .google,
+        .facebook {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 12px;
+          width: 238.563px;
+          height: 51.061px;
+          border-radius: 5.859px;
+          border: 0.837px solid #1d53c5;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+          a {
+            color: #000;
+            font-size: 20.09px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+* {
+  font-family: sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  /* ? header start */
+  #header {
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 0;
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin: 30px 60px 0 0;
+        animation: head 1s ease-in-out;
+        a {
+          color: #000;
+          text-align: right;
+          font-size: 20px;
+          font-weight: 500;
+          margin: 10px 20px;
+        }
+      }
+      @keyframes head {
+        0% {
+          transform: translateY(-400px);
+        }
+      }
+    }
+  }
+  /* ? header end */
+  /* ? work start */
+  #work {
+    .work {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        color: var(--Dark-Color, #21243d);
+        font-size: 44px;
+        font-weight: 900;
+      }
+      .block {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        border-bottom: 1px solid#E0E0E0;
+        padding: 45px 0;
+        img {
+          width: 246px;
+          height: 180px;
+        }
+        .b_inf {
+          h2 {
+            color: var(--dark-color, #21243d);
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 16px;
+          }
+          .in-b {
+            display: flex;
+            button {
+              border: 0;
+              border-radius: 16px;
+              background: #142850;
+              color: #fff;
+              font-size: 18px;
+              font-weight: 900;
+              margin: 10px 40px 10px 0;
+              width: 62px;
+              height: 25px;
+            }
+            h4 {
+              color: var(--light, #8695a4);
+              font-size: 20px;
+              font-weight: 400;
+              margin: 10px 40px 10px 0;
+            }
+          }
+          p {
+            color: var(--dark-color, #21243d);
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 16px;
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+
+  /* ? work end */
+  /* ? footer start */
+  #footer {
+    padding: 100px 0 60px 0;
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .footer-icons img {
+        margin: 20px;
+      }
+      .f-inf a {
+        color: var(--dark, #21243d);
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+  /* ? footer end */
+}

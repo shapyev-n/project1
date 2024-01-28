@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+  background: #4fbea5;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+/* ? HEADER start */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+}
+.header button {
+  padding: 12px 40px;
+  border: none;
+  background: #fff;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ? HEADER end */
+
+/* ? ABOUT start */
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.about p {
+  font-size: 17px;
+  color: #fff;
+  margin: 40px 100px 40px 0;
+}
+.about button {
+  padding: 20px 40px;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  background: #028982;
+  cursor: pointer;
+}
+
+/* ? ABOUT start */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/register.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <h1>Регистрация</h1>
+          <div class="box1">
+            <h3>Имя</h3>
+            <input
+              type="text"
+              placeholder="Введите свое имя"
+              autocomplete="given-name"
+            />
+          </div>
+          <div class="box1">
+            <h3>Фамилие</h3>
+            <input
+              type="text"
+              placeholder="Введите свое фамилие"
+              autocomplete="family-name"
+            />
+          </div>
+          <div class="box1">
+            <h3>Почта</h3>
+            <input
+              type="email"
+              placeholder="Введите свою почту"
+              autocomplete="email"
+            />
+          </div>
+          <div class="box1">
+            <h3>Пароль*</h3>
+            <div class="icon">
+              <input
+                type="password"
+                placeholder="Введите свой пароль"
+                autocomplete="new-password"
+              />
+              <img src="./img/eye nav.png" alt="" />
+            </div>
+            <div class="check">
+              <input type="checkbox" />
+              <span>Согласен с Условиями</span>
+            </div>
+          </div>
+          <a
+            class="vhod"
+            href="#"
+            id="myBtn"
+            onclick="alert('Аккаунт уже существует!')"
+            >Зарегистрироваться</a
+          >
+          <div class="box2">
+            <div class="line"></div>
+            <span>Или</span>
+            <div class="line"></div>
+          </div>
+          <div class="box3">
+            <div class="google">
+              <img src="./img/google.png" alt="" />
+              <a href="#">Google</a>
+            </div>
+            <div class="facebook">
+              <img src="./img/facebook.png" alt="" />
+              <a href="#">Fasebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="./json/script.js"></script>
+  </body>
+</html>

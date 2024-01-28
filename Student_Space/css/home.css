@@ -1,0 +1,148 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: 0;
+    cursor: pointer;
+  }
+  #header {
+    background: url(/Student_Space/img/block-1.png) no-repeat bottom/cover;
+    min-height: 800px;
+    .header {
+      .header_nav {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+          max-width: 93px;
+          color: #000;
+          font-size: 24px;
+          font-weight: 600;
+        }
+        nav {
+          display: flex;
+          align-items: center;
+          gap: 80px;
+          a {
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+          }
+          a:hover {
+            font-weight: 800;
+          }
+          .voyti {
+            padding: 8px 22px;
+            background: #000;
+            border-radius: 6px;
+            color: #fff;
+          }
+        }
+      }
+      .txt {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          width: 755px;
+          margin-bottom: 65px;
+          color: #000;
+          text-align: center;
+          font-size: 48px;
+          font-weight: 600;
+        }
+        a {
+          padding: 18px 50px;
+          border-radius: 6px;
+          background: #000;
+          color: #fff;
+          font-size: 24px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  /* ?=============== */
+  #block_one {
+    height: 800px;
+    .block_one {
+      padding: 70px 0;
+      position: relative;
+      .txt {
+        height: 341px;
+        border-radius: 12px;
+        border: 3px solid rgba(0, 0, 0, 0.24);
+        display: flex;
+        justify-content: center;
+        padding-top: 55px;
+        p {
+          width: 1070px;
+          color: #000;
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 136.151%; /* 43.568px */
+        }
+      }
+      .block {
+        width: 100%;
+        position: absolute;
+        top: 400px;
+        .block_in {
+          margin: 0 40px;
+          display: flex;
+          justify-content: space-between;
+          .box {
+            padding: 30px 25px 50px 25px;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0px 4px 14.8px 0px rgba(0, 0, 0, 0.15);
+            h1 {
+              color: rgba(0, 0, 0, 0.4);
+              font-size: 40px;
+              font-weight: 500;
+            }
+            h2 {
+              color: #000;
+              font-size: 32px;
+              font-weight: 500;
+            }
+            p {
+              width: 312px;
+              color: #000;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 136.151%; /* 27.23px */
+            }
+          }
+        }
+      }
+    }
+  }
+  /* ?=================== */
+  #images {
+    .images {
+      .one {
+        display: flex;
+      }
+      h1 {
+        margin: 90px 0;
+        color: #000;
+        font-size: 40px;
+        font-weight: 600;
+      }
+    }
+  }
+}

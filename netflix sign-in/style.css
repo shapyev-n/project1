@@ -1,0 +1,134 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: auto;
+  background: url(https://news.xbox.com/en-us/wp-content/uploads/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+#box {
+  width: 340px;
+  height: 600px;
+  background: rgba(0, 0, 0, 75%);
+  margin: 90px 0 100px 740px;
+  padding: 60px 70px;
+  border: 0;
+  border-radius: 5px;
+}
+.box h1 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+.input {
+  margin: 15px 0;
+}
+.input input {
+  width: 300px;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  background: #333;
+  padding: 0 20px;
+  color: #fff;
+}
+.input.input::placeholder {
+  color: #8c8c8c;
+  padding-left: 30px;
+}
+.btn button:hover {
+  cursor: pointer;
+}
+.btn button {
+  width: 340px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background: #e50914;
+  color: #fff;
+  margin: 30px 0;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.checkbox {
+  cursor: pointer;
+  margin-top: 5px;
+}
+.chek input {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+.chek span {
+  color: #b3b3b3;
+  font-size: 14px;
+  margin-right: 85px;
+}
+/* .chek a:hover {
+  border-bottom: 1px solid #fff;
+} */
+.chek a {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+/* .sign a:hover {
+  border-bottom: 1px solid #fff;
+} */
+.sign {
+  margin: 40px 0;
+}
+.sign span {
+  color: #707070;
+  font-size: 16px;
+}
+.sign a {
+  color: #fff;
+  font-size: 18px;
+}
+.about {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+.about a {
+  color: blue;
+}
+#footer {
+  width: auto;
+  height: 400px;
+  background: rgb(0 0 0 / 75%);
+}
+.footer {
+  margin: 50px 200px;
+}
+.footer a {
+  color: #707070;
+  font-size: 18px;
+}
+.nav a {
+  font-size: 30px;
+  /* margin-top: 40px; */
+  /* margin-bottom: 40px; */
+}
+.f-site1 a {
+  margin-right: 170px;
+  /* margin-top: 30px; */
+}
+.f-site2 a {
+  margin-right: 190px;
+}
+.btn2 button {
+  width: 200px;
+  height: 55px;
+  background: #000;
+  color: #707070;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 210px;
+  cursor: pointer;
+}

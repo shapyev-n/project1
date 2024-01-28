@@ -1,0 +1,131 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  .container {
+    width: 80%;
+  }
+  a {
+    text-decoration: none;
+  }
+  #header {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .image {
+        img {
+          width: 500px;
+          height: 100vh;
+        }
+      }
+      .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+          color: #000;
+          font-size: 40px;
+          font-weight: 500;
+          margin-bottom: 42px;
+        }
+        .box1 {
+          margin-bottom: 23px;
+          h3 {
+            color: #000;
+            font-size: 16.741px;
+            font-weight: 400;
+            margin-bottom: 10px;
+          }
+          input {
+            padding: 0 50px 0 16px;
+            width: 436.238px;
+            height: 58.594px;
+            border-radius: 6.697px;
+            border: 0.837px solid rgba(0, 0, 0, 0.4);
+            font-size: 22px;
+          }
+          input::placeholder {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 16.741px;
+            font-weight: 400;
+          }
+          input:focus {
+            outline: none;
+          }
+          .icon {
+            position: relative;
+            img {
+              position: absolute;
+              right: 20px;
+              top: 20px;
+              cursor: pointer;
+            }
+          }
+        }
+        .vhod {
+          margin: 17px 0 40px 0;
+          padding: 16px 221.5px;
+          border-radius: 12px;
+          background: #1d53c5;
+          color: #fff;
+          font-size: 24px;
+          font-weight: 500;
+        }
+        .register {
+          color: #000;
+          font-size: 20px;
+          font-weight: 400;
+          a {
+            color: #1d53c5;
+            font-size: 20px;
+            font-weight: 400;
+          }
+        }
+        .box2 {
+          display: flex;
+          align-items: center;
+          margin: 26px 0;
+          .line {
+            width: 139px;
+            height: 1px;
+            background: #1d53c5;
+          }
+          span {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0 39px 0 30px;
+          }
+        }
+        .box3 {
+          display: flex;
+          gap: 25px;
+          .google,
+          .facebook {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 238.563px;
+            height: 51.061px;
+            border-radius: 5.859px;
+            border: 0.837px solid #1d53c5;
+            img {
+              width: 20px;
+              height: 20px;
+            }
+            a {
+              color: #000;
+              font-size: 20.09px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}

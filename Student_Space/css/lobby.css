@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  a {
+    text-decoration: none;
+  }
+  .menu_bar {
+    width: 330px;
+    height: 100vh;
+    background: #1d53c5;
+    padding: 20px 40px 20px 40px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow-y: scroll;
+    .user_info {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 7px;
+      .user {
+        padding-left: 20px;
+        img {
+          width: 84px;
+          height: 84px;
+          cursor: pointer;
+        }
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        .profil {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 8px;
+        }
+        .kurs {
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          opacity: 0.7;
+        }
+        a:hover {
+          opacity: 1;
+        }
+      }
+    }
+    .vizit {
+      display: inline-block;
+      padding: 10px 0 10px 40px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      transition: 0.7s;
+    }
+    .vizit:hover {
+      background: #fff;
+      color: #1d53c5;
+      border-radius: 4px;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  .scroll {
+    padding: 32px 150px 200px 470px;
+    .container {
+      width: 818px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      .box {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 25px;
+        border-radius: 4px;
+        background: #e5e5e5;
+        ion-icon {
+          font-size: 24px;
+        }
+        a {
+          color: #000;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+    .block_one {
+      width: 770px;
+      height: 134px;
+      border-radius: 12px;
+      background: #e5e5e5;
+      padding: 24px;
+      display: flex;
+      gap: 10px;
+      position: relative;
+      span {
+        padding: 6px 12px;
+        height: 19px;
+        border-radius: 4px;
+        background: #fff;
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      a {
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+        padding: 8px 30px;
+        border-radius: 4px;
+        background: #1d53c5;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .box {
+        display: flex;
+        position: absolute;
+        left: 50px;
+        top: 95px;
+
+        img {
+          width: 45px;
+          height: 45px;
+          cursor: pointer;
+        }
+        .u1 {
+          position: absolute;
+          left: 0;
+          z-index: 1;
+        }
+        .u2 {
+          position: absolute;
+          left: 35px;
+          z-index: 2;
+        }
+        .u3 {
+          position: absolute;
+          left: 70px;
+          z-index: 3;
+        }
+        .u4 {
+          position: absolute;
+          left: 105px;
+          z-index: 4;
+        }
+        .u5 {
+          position: absolute;
+          left: 140px;
+          z-index: 5;
+        }
+        .u6 {
+          position: absolute;
+          left: 175px;
+          z-index: 6;
+        }
+        .u7 {
+          position: absolute;
+          left: 210px;
+          z-index: 7;
+        }
+      }
+    }
+    .lobby {
+      width: 326px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 25px;
+      border-radius: 4px;
+      background: #e5e5e5;
+      margin-top: 10px;
+      ion-icon {
+        font-size: 24px;
+      }
+      a {
+        color: #000;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+  }
+}
